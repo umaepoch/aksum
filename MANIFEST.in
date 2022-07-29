@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aksum *.css
+recursive-include aksum *.csv
+recursive-include aksum *.html
+recursive-include aksum *.ico
+recursive-include aksum *.js
+recursive-include aksum *.json
+recursive-include aksum *.md
+recursive-include aksum *.png
+recursive-include aksum *.py
+recursive-include aksum *.svg
+recursive-include aksum *.txt
+recursive-exclude aksum *.pyc

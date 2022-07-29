@@ -1,0 +1,73 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2022-07-21 11:56:05.568181",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "delivery_to_section",
+  "naming_series",
+  "section_break_3",
+  "branch",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "delivery_to_section",
+   "fieldtype": "Section Break",
+   "options": "fa fa-user"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "options": "DC-R-AKS-DL-22-23-00001\nDC-R-AKS-HR-22-23-00001",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break",
+   "label": "Accounting Dimensions"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Delivery Note Return",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2022-07-29 15:23:13.665111",
+ "modified_by": "Administrator",
+ "module": "aksum",
+ "name": "Delivery Note Return",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
